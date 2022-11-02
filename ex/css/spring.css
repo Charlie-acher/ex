@@ -96,5 +96,49 @@ html,body {
 	font-size: 22px;
 	font-family: 幼圆;
 }
-
-
+#choose{
+	position: absolute;
+	top: 333px;
+	left: 492px;
+}
+#choose li{
+	position: relative;
+	list-style: none;
+	background: #9c9223;
+	width: 10.2px;
+	height: 10.2px;
+	margin: 32.1px 0;
+	border-radius: 50%;
+	transition: 0.5s;
+	cursor: pointer;
+}
+#choose li:hover{
+	background-color: rgba(156, 146, 35,0.7);
+	box-shadow: 0 0 0 4px #ffffff,0 0 0 6px #9c9223;
+}
+#choose li a{
+	position: relative;
+	bottom: 8px;
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	width: 200px;
+	height: 5px;
+	margin: 0 30px;
+	font-size: 22px;
+	font-family: 幼圆;
+}
+.choose{
+	position: absolute;
+	top: 352px;
+	left: 485px;
+}
+.choose img{
+	position: relative;
+	width: 25px;
+	height: 27px;
+	margin: 5px 0;
+}
+.choose li{
+	list-style: none;
+}
